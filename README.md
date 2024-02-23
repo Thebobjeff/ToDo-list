@@ -2,7 +2,7 @@
 This is my submissions of the first of many react apps! 
 
 
-#Welcome to TaskMaster React App!
+# Welcome to TaskMaster React App!
 
 Congratulations on discovering TaskMaster, a sleek and simple React app designed to streamline your task management experience. With TaskMaster, you have the power to add as many tasks as you desire, effortlessly organize your responsibilities, and enjoy a clutter-free workflow.
 
