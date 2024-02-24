@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto+Condensed&display=swap');
+
+* {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  background-color: rgb(197, 200, 224);
+  max-width: 600px;
+  padding: 10px 20px 20px;
+  border-radius: 12px;
+  margin: 0 auto;
+} 
+
+h1 {
+  text-align: center;
+}
+
+.container h2 {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0 20px 0;
+  color: white;
+}
+
+section {
+  display: flex; /* Use flexbox to align items vertically */
+  flex-direction: column; /* Items should be stacked vertically */
+}
+
+section > * {
+  margin-bottom: 10px; /* Add spacing between items */
+}
+
+section > div.closed {
+  margin-bottom: 20px;
+}

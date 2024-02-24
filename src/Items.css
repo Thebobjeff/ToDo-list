@@ -1,0 +1,22 @@
+li {
+    font: 16px;
+    list-style: none;
+    margin: 20px auto; /* Center the list items horizontally */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Align task ID and title to the left and button to the right */
+    align-items: center; /* Center items vertically */
+    max-width: 600px; /* Limit width of list items */
+    background-color: rgb(235, 231, 225);
+  }
+  
+  li > span {
+    flex: 1; /* Ensure task ID and title take up remaining space */
+  }
+  
+  button {
+    float: left; /* Float the button to the left */
+  }
+  
